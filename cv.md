@@ -1,3 +1,5 @@
+![foto](./images/photo.jpg)
+
 # Anzor Dzhamaldaev
 
 
@@ -9,16 +11,18 @@
 
 ## Education  
 
-ICTIS SFEDU 2015-2021  
+ICTIS SFEDU  2015-2021  
 *Information and Analytical Systems of Financial Monitoring*
 
 
-## Description
+## About myself  
+I'm just a simple man, trying to make my way in the universe
 
 
+## Skills  
 
-## Skills
-
+- HTML5, CSS3
+- C++, Python (briefly)  
 
 ## Code Example  
 
