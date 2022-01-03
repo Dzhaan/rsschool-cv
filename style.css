@@ -1,0 +1,232 @@
+
+
+.sidebar {
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    background-color: rgb(30, 30, 30);
+    justify-content: space-between;
+    padding: 16px 12px;
+
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.header {
+    flex-grow: 0;
+    width: 800px;
+}
+
+.nav_panel  {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+    font-weight: 900;
+}
+
+.nav_panel a:visited {
+    color: black;
+}
+
+.nav_panel a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    flex-grow: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-top: 2px solid #b27f00;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+
+body {
+    margin: 0;
+}
+
+.general {
+    width: 470px;
+    padding-left: 12px;
+    background-color: #F5F5F5;
+    padding-right: 24px;
+    overflow-y: auto;
+    border-left: 2px solid #b27f00;
+
+}
+
+
+
+.lang_rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.big_dot {
+    width: 16px;
+    height: 16px;
+    background-color: #b27f00;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+.small_dot {
+    width: 6px;
+    height: 6px;
+    background-color: #515151;
+    border-radius: 50%;
+    margin-left: 8px ;
+    margin-right: 5px;
+}
+
+
+.edu_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 12px;
+    width: 100%;
+    position: relative;
+}
+
+.edu_info:not(:last-child)::after {
+    content: '';
+    position: absolute; 
+    left: 9px;
+    top: 16px;
+    height: 100%;
+    border-left: 3px solid #b27f00;
+}
+
+.edu_year {
+    display: flex;
+    gap: 5px;
+    margin-right: 48px;;
+}
+
+.course_name {
+    flex-grow: 0;
+    max-width: 320px;
+}
+
+.icon {
+    height: 12px;
+    margin-right: 8px;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.ava_section {
+    display: flex;
+    width: 100%;
+    
+}
+
+.ava_img {
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #b27f00 ;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.dimmer {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+}
+
+#edu_popup:target {
+    display: flex;
+}
+
+#lang_popup:target {
+    display: flex;
+}
+
+#skills_popup:target {
+    display: flex;
+}
+
+#code_popup:target {
+    display: flex;
+}
+
+#projects_popup:target {
+    display: flex;
+}
+
+#interests_popup:target {
+    display: flex;
+}
+
+#cont_popup:target {
+    display: flex;
+}
+
+.popup {
+    display: flex;
+    background-color: #F5F5F5; 
+    flex-direction: column;
+    border: 2px solid #515151;
+    border-radius: 4px;
+    padding: 0 16px 12px 16px;
+    cursor: default;
+    min-width: 320px;
+    justify-content: flex-start;
+}
+
+
